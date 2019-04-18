@@ -26,7 +26,8 @@ Tekstid on esitatud üks-rida-vaatluse-kohta vormingus kolmes kataloogis.
 ```
 
 - "Texts" sisaldab tekste toorkujul, kus on lause iga rea kohta. _sentence_ sisaldab lauset ennast, _parnr_ sisaldab lõigu järjekorranumbrit ja _head_ üksuse pealkirja - enamasti peatüki pealkiri. 
-- "Lemmas" sisaldab tekste toorkujul ja nende lemmatiseeritud vorme tulbas nimega _lemmas_. - "Postagged" sisaldab segmenteeritud faile, kus on üks sõne rea kohta koos selle märgendusega - _word_texts_ on sõned toorkujul, 'lemmas' on selle lemma, 'roots' on selle sõna juur,'root_tokens' on juure erivormid,'forms' on vormitunnus,'endings' on sõnalõpp, 'postags' on sõnaliigi tunnus, 'postag_descriptions' on sõnaliigi tunnus lahti kirjutatult. Märgenduste tähendused on nähtaval [siin](https://estnltk.github.io/estnltk/1.4/tutorials/morf_tables.html).
+- "Lemmas" sisaldab tekste toorkujul ja nende lemmatiseeritud vorme tulbas nimega _lemmas_. 
+- "Postagged" sisaldab segmenteeritud faile, kus on üks sõne rea kohta koos selle märgendusega - _word_texts_ on sõned toorkujul, 'lemmas' on selle lemma, 'roots' on selle sõna juur,'root_tokens' on juure erivormid,'forms' on vormitunnus,'endings' on sõnalõpp, 'postags' on sõnaliigi tunnus, 'postag_descriptions' on sõnaliigi tunnus lahti kirjutatult. Märgenduste tähendused on nähtaval [siin](https://estnltk.github.io/estnltk/1.4/tutorials/morf_tables.html).
 
 Kollektsiooni peamine eesmärk on aidata õppida tekstikaevemeetodeid. Tekstide lemmatiseerimiseks ja märgendamiseks on kasutatud [EstNLTK](https://github.com/estnltk/estnltk) Pythoni paketti.
 
