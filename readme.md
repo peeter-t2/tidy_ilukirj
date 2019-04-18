@@ -4,25 +4,26 @@ See kogu esitab [Koondkorpuse Eesti ilukirjandus 1990-](https://www.cl.ut.ee/kor
 
 Tekstid on esitatud üks-rida-vaatluse-kohta vormingus kolmes kataloogis. 
 
-├── tidy_ilukirj <br>
-│   ├── texts <br>
-│   │   ├── ilu_ahasveerus.tsv <br>
-│   │   ├── ilu_ajalooilu.tsv <br>
-│   │   └── ... <br>
-│   ├── lemmas <br>
-│   │   ├── ilu_ahasveerus.tsv <br>
-│   │   ├── ilu_ajalooilu.tsv <br>
-│   │   └── ... <br>
-│   └── postagged <br>
-│       ├── ilu_ahasveerus.tsv <br>
-│       ├── ilu_ajalooilu.tsv <br>
-│       └── ... <br>
-├── koond_iluk_tidy_meta.tsv <br>
-├── readme.md <br>
-├── (texts.zip) <br>
-├── (lemmas.zip) <br>
-└── (postagged.zip) <br>
-
+```
+├── tidy_ilukirj
+│   ├── texts
+│   │   ├── ilu_ahasveerus.tsv
+│   │   ├── ilu_ajalooilu.tsv
+│   │   └── ...
+│   ├── lemmas
+│   │   ├── ilu_ahasveerus.tsv
+│   │   ├── ilu_ajalooilu.tsv
+│   │   └── ...
+│   └── postagged
+│       ├── ilu_ahasveerus.tsv
+│       ├── ilu_ajalooilu.tsv
+│       └── ...
+├── koond_iluk_tidy_meta.tsv
+├── readme.md
+├── (texts.zip)
+├── (lemmas.zip)
+└── (postagged.zip)
+```
 
 "Texts" sisaldab tekste toorkujul, kus on lause iga rea kohta. _sentence_ sisaldab lauset ennast, _parnr_ sisaldab lõigu järjekorranumbrit ja _head_ üksuse pealkirja - enamasti peatüki pealkiri. "Lemmas" sisaldab tekste toorkujul ja nende lemmatiseeritud vorme tulbas nimega _lemmas_. "Postagged" sisaldab segmenteeritud faile, kus on üks sõne rea kohta koos selle märgendusega - _word_texts_ on sõned toorkujul, 'lemmas' on selle lemma, 'roots' on selle sõna juur,'root_tokens' on juure erivormid,'forms' on vormitunnus,'endings' on sõnalõpp, 'postags' on sõnaliigi tunnus, 'postag_descriptions' on sõnaliigi tunnus lahti kirjutatult. Märgenduste tähendused on nähtaval [siin](https://estnltk.github.io/estnltk/1.4/tutorials/morf_tables.html).
 
