@@ -5,19 +5,19 @@ See kogu esitab [Koondkorpuse Eesti ilukirjandus 1990-](https://www.cl.ut.ee/kor
 Tekstid on esitatud üks-rida-vaatluse-kohta vormingus kolmes kataloogis. 
 
 ```
-├── tidy_ilukirj
-│   ├── texts
-│   │   ├── ilu_ahasveerus.tsv
-│   │   ├── ilu_ajalooilu.tsv
-│   │   └── ...
-│   ├── lemmas
-│   │   ├── ilu_ahasveerus.tsv
-│   │   ├── ilu_ajalooilu.tsv
-│   │   └── ...
-│   └── postagged
-│       ├── ilu_ahasveerus.tsv
-│       ├── ilu_ajalooilu.tsv
-│       └── ...
+tidy_ilukirj
+├── texts
+│   ├── ilu_ahasveerus.tsv
+│   ├── ilu_ajalooilu.tsv
+│   └── ...
+├── lemmas
+│   ├── ilu_ahasveerus.tsv
+│   ├── ilu_ajalooilu.tsv
+│   └── ...
+├── postagged
+│   ├── ilu_ahasveerus.tsv
+│   ├── ilu_ajalooilu.tsv
+│   └── ...
 ├── koond_iluk_tidy_meta.tsv
 ├── readme.md
 ├── (texts.zip)
